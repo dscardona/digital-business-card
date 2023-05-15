@@ -5,7 +5,7 @@ import linkedin from "../../public/images/linkedin.png"
 function Info() {
     return (
         <div className="info">
-            <img src={headshot} />
+            <img className="headshot" src={headshot} alt="Headshot of woman looking straight ahead, with her hair up" />
             <h1>Diana S. Cardona</h1>
             <h4>Full-stack Developer</h4>
             <h5>github.com/dscardona</h5>

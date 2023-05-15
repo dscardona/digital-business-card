@@ -16,30 +16,38 @@ body {
     background-color: #1A1B21;
     width: 317px;
     margin: 40px auto auto;
+    border-radius: 20px;
 }
 
+.headshot {
+    border-radius: 10px 10px 0px 0px;
+}
 h1 {
-    font-weight: 500;
-    margin: 30px 0px 0px;
+    font-weight: 600;
+    margin: 20px 0px 0px;
+    font-size: 25px;
 }
 
 h4 {
     font-weight: 100;
-    margin: 10px 0px 0px;
+    margin: 3px 0px 5px;
     color: #F3BF99;
+    font-size: 13px;
 }
 
-h5, p {
+h5 {
     font-weight:100;
-    font-size: 12px;
-    margin: 15px 0px 0px;
+    font-size: 10px;
+    margin: 5px 0px 0px;
+    padding: 0px;
+    color: #DCDCDC;
 }
 
 .buttons {
     display: flex;
     width: 317px;
-    margin: 15px 0px 0px;
-    justify-content: space-around;
+    margin: 20px 0px 10px;
+    justify-content: space-evenly;
     
 }
 
@@ -68,18 +76,38 @@ h5, p {
     display: flex;
 }
 
-.about-body, .about-interests, .footer {
+.about-body, .interests-body, .footer {
     background-color: #1A1B21;
     width: 317px;
     margin: 0px auto 0px;
-    padding: 35px 40px;
+    padding: 10px 40px;
 }
 
 h3 {
-    margin-top: 0px;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.interests-body {
+    padding-bottom: 30px;
 }
 
 .footer-social-logos {
     display: flex;
     justify-content: space-around;
+    margin: 8px 0px;
+}
+
+.footer {
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+p {
+    font-weight:100;
+    font-size: 10px;
+    margin-top: 5px;
+    line-height: 14px;
+    color: #DCDCDC;
 }
