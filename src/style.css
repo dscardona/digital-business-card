@@ -47,7 +47,7 @@ h5 {
     display: flex;
     width: 317px;
     margin: 20px 0px 10px;
-    justify-content: space-evenly;
+    justify-content: center;
     
 }
 
@@ -55,10 +55,6 @@ h5 {
     background-color: white;
     border: 1px solid #D1D5DB;
     color: #374151;
-    border-radius: 5px;
-    padding: 5px 40px;
-    font-size: 16px;
-    width: 115px;
 }
 
 .btn--linkedin {
@@ -66,16 +62,22 @@ h5 {
     border: 1px solid #D1D5DB;
     color: white;
     border: none;
-    border-radius: 5px;
-    padding: 5px 40px;
-    font-size: 16px;
-    width: 115px;
 }
 
 .btn--content {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 7px 30px;
+    font-size: 13px;
+    width: 105px;
+    margin: 0px 8px;
 }
 
+.btn-text {
+    margin: 0px 7px 0px;
+}
 .about-body, .interests-body, .footer {
     background-color: #1A1B21;
     width: 317px;

@@ -10,18 +10,14 @@ function Info() {
             <h4>Full-stack Developer</h4>
             <h5>github.com/dscardona</h5>
             <div className="buttons">
-                <div className="btn--content">
-                    <button className="btn--email">
-                        {/* <img src={email}/> */}
-                        Email
-                    </button>
-                </div>
-                <div className="btn--content">
-                    <button className="btn--linkedin">
-                        {/* <img src={linkedin}/> */}
-                        LinkedIn
-                    </button>
-                </div>
+                <button className="btn--email btn--content">
+                    <img src={email}/>
+                    <span className="btn-text">Email</span>
+                </button>
+                <button className="btn--linkedin btn--content">
+                    <img src={linkedin}/>
+                    <span className="btn-text">LinkedIn</span>
+                </button>
             </div>
         </div>
     )
