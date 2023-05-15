@@ -68,7 +68,7 @@ h5, p {
     display: flex;
 }
 
-.about-body, .about-interests {
+.about-body, .about-interests, .footer {
     background-color: #1A1B21;
     width: 317px;
     margin: 0px auto 0px;
@@ -77,4 +77,9 @@ h5, p {
 
 h3 {
     margin-top: 0px;
+}
+
+.footer-social-logos {
+    display: flex;
+    justify-content: space-around;
 }
