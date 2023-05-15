@@ -6,7 +6,6 @@ body {
     background-color: #23252C;
     color: white;
     font-family:'Inter', sans-serif;
-
 }
 
 .info {
@@ -30,8 +29,8 @@ h4 {
     color: #F3BF99;
 }
 
-h5 {
-    font-weight: 100;
+h5, p {
+    font-weight:100;
     font-size: 12px;
     margin: 15px 0px 0px;
 }
@@ -67,4 +66,15 @@ h5 {
 
 .btn--content {
     display: flex;
+}
+
+.about-body, .about-interests {
+    background-color: #1A1B21;
+    width: 317px;
+    margin: 0px auto 0px;
+    padding: 35px 40px;
+}
+
+h3 {
+    margin-top: 0px;
 }
