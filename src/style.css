@@ -114,3 +114,12 @@ p {
     line-height: 14px;
     color: #DCDCDC;
 }
+
+.updated-date {
+    width: 317px;
+    margin: 0px auto 0px;
+    font-size: 9px;
+    color: #bcb6b6;
+    text-align: right;
+
+}
