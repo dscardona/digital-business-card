@@ -5,7 +5,7 @@ function About() {
         <>
         <div className="about-body">
             <h3>About</h3>
-            <p>I am an aspiring full-stack developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
+            <p>I'm an aspiring full-stack web developer. I have experience with a variety of technologies, including HTML, CSS, JavaScript, React, Node.js, and MongoDB. I am always looking for new challenges and opportunities to learn and grow.</p>
         </div>
         </>
     )
